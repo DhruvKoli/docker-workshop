@@ -1,0 +1,14 @@
+Terraform commands
+
+First set path in environment variables.
+Then run commands from terminal
+
+gcloud auth login
+gcloud auth application-default login
+gcloud config set project YOUR_PROJECT_ID
+gcloud auth application-default set-quota-project terraform-demo-500110
+terraform init
+terraform plan
+terraform apply
+It will ask Do you want to perform these actions? — type yes and press Enter
+terraform destroy
